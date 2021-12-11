@@ -16,29 +16,33 @@
 
 <body>
     <header class="header line">
-        <div class="container nav">
-            <nav class="nav">
-                <a lang="en" class="logo link" href="./"><span class="color-web">Web</span>Studio</a>
-                <ul class="nav-items list">
-                    <li class="header-item">
-                        <a class="nav-link current link" href="./">Студия</a>
+        <div class="container">
+            <nav class="navigation">
+                <a lang="en" class="navigation__logo link" href="./">
+                    <span class="navigation__logo--color-blue">Web</span>Studio
+                </a>
+                <ul class="navigation__menu list">
+                    <li class="navigation__header-item">
+                        <a class="navigation__link current link" href="./">Студия</a>
                     </li>
-                    <li class="header-item">
-                        <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+                    <li class="navigation__header-item">
+                        <a class="navigation__link link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="header-item">
-                        <a class="nav-link link" href="">Контакты</a>
+                    <li class="navigation__header-item">
+                        <a class="navigation__link link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="list nav-items">
-                <li class="header-item"><a class="contacts-link link" href="mailto:info@devstudio.com">
-                        <svg class="envelope" width="16" height="12">
+            <ul class="list navigation__menu">
+                <li class="navigation__header-item">
+                    <a class="header-contacts__link link" href="mailto:info@devstudio.com">
+                        <svg class="header-contacts__icon" width="16" height="12">
                             <use href="./images/icons.svg#envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="header-item"><a class="contacts-link link" href="tel:+380961111111">
-                        <svg class="smartphone" width="10" height="16">
+                <li class="navigation__header-item">
+                    <a class="header-contacts__link link" href="tel:+380961111111">
+                        <svg class="header-contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#smartphone"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
@@ -50,7 +54,7 @@
         <section class="hero section">
             <div class="container">
                 <h1 class="business">Эффективные решения для вашего бизнеса</h1>
-                <button class="order-service" type="button" data-modal-open>Заказать услугу</button>
+                <button class="btn__hero" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -331,10 +335,11 @@
                 <address class="address">
                     <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="contacts list">
-                        <li class="footer-item"><a class="contacts-link link"
+                        <li class="footer-item"><a class="footer-contacts__link link"
                                 href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li class="footer-item"><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11
+                        <li class="footer-item"><a class="footer-contacts__link link" href="tel:+380961111111">+38 096
+                                111 11
                                 11</a>
                         </li>
                     </ul>

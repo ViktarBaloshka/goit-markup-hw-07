@@ -68,8 +68,8 @@ input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }
 
-.navigation__link:hover,
-.navigation__link:focus,
+.navigation__header-link:hover,
+.navigation__header-link:focus,
 .header-contacts__link:hover,
 .header-contacts__link:focus,
 .clients__link:hover,

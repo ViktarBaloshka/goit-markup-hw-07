@@ -1,0 +1,21 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: transform $time-duration $time-transition,
+    opacity $time-duration $time-transition;
+
+  & is-hidden {
+    opacity: 0;
+    pointer-events: none;
+
+    transform: scale(0);
+    transition: transform $time-duration $time-transition,
+      opacity $time-duration $time-transition;
+  }
+}

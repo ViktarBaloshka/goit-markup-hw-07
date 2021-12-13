@@ -1,0 +1,25 @@
+.header-link__logo,
+.footer-link__logo {
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $first-fonts-color;
+}
+
+.logo--color-blue {
+  color: $active-element-color;
+}
+
+.header-link__logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer-link__logo {
+  display: block;
+  margin-bottom: 20px;
+  color: $basic-color;
+}

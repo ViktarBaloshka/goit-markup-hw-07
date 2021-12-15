@@ -245,8 +245,8 @@ input:-webkit-autofill:active {
 
 .hero__button:hover,
 .hero__button:focus,
-.modal__submit:hover,
-.modal__submit:focus,
+.button__submit:hover,
+.button__submit:focus,
 .subscribe__button:hover,
 .subscribe__button:focus {
   background: var(--order-service-color);
@@ -842,7 +842,7 @@ input:-webkit-autofill:active {
   color: var(--active-element-color);
 }
 
-.modal__submit {
+.subscribe__button {
   display: flex;
   justify-content: center;
   align-items: center;

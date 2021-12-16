@@ -1,5 +1,6 @@
 @import './utils/normalize';
 @import './utils/variables';
+@import './utils/mixins';
 @import './utils/reset';
 @import './utils/visually-hidden';
 @import './components/body';
@@ -15,3 +16,5 @@
 @import './components/clients';
 @import './components/footer';
 @import './components/subscribe';
+@import './components/buttons';
+@import './components/icons';

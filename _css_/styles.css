@@ -187,12 +187,6 @@ input:-webkit-autofill:active {
 
 /*Contacts*/
 
-.header-contacts__icon {
-  padding: 0;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
 /*---------------Section hero-------------*/
 
 .hero__title {
@@ -224,34 +218,6 @@ input:-webkit-autofill:active {
   color: var(--basic-color);
   text-align: center;
   padding: 200px 0;
-}
-
-.hero__button {
-  padding: 10px 32px;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  font-family: inherit;
-
-  border: none;
-  border-radius: 4px;
-  background-color: var(--active-element-color);
-  color: var(--basic-color);
-  transition: background-color var(--time) var(--time-transition),
-    color var(--time) var(--time-transition),
-    box-shadow var(--time) var(--time-transition);
-}
-
-.hero__button:hover,
-.hero__button:focus,
-.button__submit:hover,
-.button__submit:focus,
-.subscribe__button:hover,
-.subscribe__button:focus {
-  background: var(--order-service-color);
-  box-shadow: 0px 4px 4px var(--shadow);
-  border-radius: 4px;
 }
 
 /*---------------Section specificity-------------*/
@@ -298,13 +264,6 @@ input:-webkit-autofill:active {
   margin-bottom: 30px;
   background-color: var(--second-color);
   border-radius: 4px;
-}
-
-.thumb__icon {
-  display: block;
-  margin: 0 auto;
-  width: 70px;
-  height: 70px;
 }
 
 /*---------------Section make-------------*/
@@ -456,12 +415,6 @@ input:-webkit-autofill:active {
   margin-right: 10px;
 }
 
-.soc__icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-}
-
 /*---------------Section clients-------------*/
 
 .clients__header {
@@ -497,11 +450,6 @@ input:-webkit-autofill:active {
 
   transition: border-color var(--time) var(--time-transition),
     color var(--time) var(--time-transition);
-}
-.clients__icon {
-  width: 106px;
-  height: 60px;
-  fill: currentColor;
 }
 
 .clients__link:hover,
@@ -579,38 +527,6 @@ input:-webkit-autofill:active {
 
 .form-subscribe {
   display: flex;
-}
-
-.button__icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--basic-color);
-}
-
-.subscribe__button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--basic-color);
-  cursor: pointer;
-
-  background: var(--active-element-color);
-  box-shadow: 0px 4px 4px var(--shadow);
-  border-radius: 4px;
-  border: none;
-
-  transition: background-color var(--time) var(--time-transition),
-    color var(--time) var(--time-transition),
-    box-shadow var(--time) var(--time-transition);
 }
 
 .subscribe__input {
@@ -693,11 +609,6 @@ input:-webkit-autofill:active {
   color: var(--active-element-color);
 }
 
-.close__icon {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
-}
 .modal__form {
   position: relative;
   margin-left: auto;
@@ -763,19 +674,6 @@ input:-webkit-autofill:active {
   outline: -webkit-focus-ring-color auto 0px;
 }
 
-.form__input:focus + .form__icon {
-  fill: var(--active-element-color);
-}
-
-.form__icon {
-  position: absolute;
-  transform: translate(12px, 28px);
-
-  width: 18px;
-  height: 18px;
-  transition: fill var(--time) var(--time-transition);
-}
-
 .form__feedback {
   padding: 12px 16px;
   margin-bottom: 20px;
@@ -795,30 +693,6 @@ input:-webkit-autofill:active {
   justify-content: center;
   margin-bottom: 30px;
   cursor: pointer;
-}
-
-.checkbox__input:checked + .checkbox__icon {
-  border-color: var(--active-element-color);
-  background-color: var(--active-element-color);
-  background-size: contain;
-  background-origin: border-box;
-}
-
-.checkbox__input:focus + .checkbox__icon,
-.checkbox__input:hover + .checkbox__icon {
-  border-color: var(--active-element-color);
-}
-
-.checkbox__icon {
-  align-items: center;
-  width: 16px;
-  height: 15px;
-  border-radius: 2px;
-  border: 2px solid var(--first-fonts-color);
-
-  transition: background-color var(--time) var(--time-transition),
-    color var(--time) var(--time-transition),
-    background-color var(--time) var(--time-transition);
 }
 
 .checkbox__name {
@@ -842,61 +716,7 @@ input:-webkit-autofill:active {
   color: var(--active-element-color);
 }
 
-.subscribe__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--basic-color);
-  cursor: pointer;
-
-  background: var(--active-element-color);
-  box-shadow: 0px 4px 4px var(--shadow);
-  border-radius: 4px;
-  border: none;
-
-  transition: background-color var(--time) var(--time-transition),
-    color var(--time) var(--time-transition),
-    box-shadow var(--time) var(--time-transition);
-}
-
 /********************************Portfolio page*********************************/
-
-.filter-button {
-  border-radius: 4px;
-  border: 0;
-  padding: 6px 22px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  font-family: inherit;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--first-fonts-color);
-  cursor: pointer;
-
-  transition: background-color var(--time) var(--time-transition),
-    color var(--time) var(--time-transition),
-    box-shadow var(--time) var(--time-transition);
-}
-
-.filter-button:hover,
-.filter-button:focus,
-.current-button {
-  background-color: var(--active-element-color);
-  color: var(--basic-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
 
 .filter-list {
   display: flex;

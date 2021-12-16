@@ -7,10 +7,7 @@
   margin-bottom: 50px;
   text-align: center;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include font_style(700, 36px, 1.16, null, 0.03em);
 }
 
 .team__list {
@@ -29,19 +26,14 @@
   margin: 0;
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include font_style(500, 16px, 1.18, null, 0.03em);
 }
 
 .team__position {
   margin: 0 0 16px;
   text-align: center;
 
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+  @include font_style(null, 16px, 1.18, null, 0.03em);
 
   color: $second-fonts-color;
 }

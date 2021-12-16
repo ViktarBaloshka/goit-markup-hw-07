@@ -9,11 +9,8 @@
 
 .footer-soc__text {
   margin: 0 0 20px;
+  @include font_style(700, 14px, 1.14, null, 0.03em);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: $basic-color;
@@ -25,11 +22,8 @@
 
 .address__text {
   margin: 0 0 9px;
-
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font_style(null, 14px, 1.71, null, 0.03em);
 
   color: $basic-color;
 }

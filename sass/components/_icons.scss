@@ -23,7 +23,7 @@
   @include icons(24px, 24px, $basic-color);
 }
 
-.close__icon {
+.close--icon {
   @include icons(18px, 18px, currentColor);
 }
 
@@ -33,10 +33,10 @@
 
   @include icons(18px, 18px, null);
   @include transition(fill, null, null, $time-duration, $time-transition);
+}
 
-  .form__input:focus + &--icon {
-    fill: $active-element-color;
-  }
+.form__input:focus + .form--icon {
+  fill: $active-element-color;
 }
 
 .checkbox__input:checked + .checkbox--icon {

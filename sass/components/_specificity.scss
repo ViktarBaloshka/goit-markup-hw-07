@@ -6,19 +6,15 @@
   margin-top: 0;
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font_style(700, 14px, 1.14, null, 0.02em);
   text-transform: uppercase;
 }
 
 .specificity__text {
   margin: 0;
 
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font_style(null, 14px, 1.71, null, 0.02em);
+
   color: $second-fonts-color;
   max-width: 270px;
 }
@@ -33,11 +29,11 @@
 }
 
 .specificity__thumb {
-  display: flex;
-  align-items: center;
+  @include flex(flex, null, center, null, null);
+
   width: 100%;
   min-height: 120px;
   margin-bottom: 30px;
-  background-color: $second-color;
-  border-radius: 4px;
+
+  @include border_style($second-color, null, 4px, null);
 }

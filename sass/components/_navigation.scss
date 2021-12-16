@@ -1,12 +1,8 @@
 .navigation {
-  display: flex;
-  align-items: center;
+  @include flex(flex, null, center, null, null);
   margin-right: auto;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font_style(500, 14px, 1.14, null, 0.02em);
 }
 
 .navigation__header {
@@ -25,8 +21,7 @@
   padding-bottom: 32px;
 
   color: $first-fonts-color;
-  transition: color $time-duration $time-transition,
-    transform $time-duration $time-transition;
+  @include transition(color, transform, null, $time-duration, $time-transition);
 
   &:hover,
   &:focus {
@@ -35,8 +30,13 @@
 
   &:hover::after {
     transform: scaleX(1);
-    transition: color $time-duration $time-transition,
-      transform $time-duration $time-transition;
+    @include transition(
+      color,
+      transform,
+      null,
+      $time-duration,
+      $time-transition
+    );
   }
 
   &::after {
@@ -52,16 +52,26 @@
     max-height: 4px;
 
     transform: scaleX(0);
-    transition: color $time-duration $time-transition,
-      transform $time-duration $time-transition;
+    @include transition(
+      color,
+      transform,
+      null,
+      $time-duration,
+      $time-transition
+    );
   }
 
   &--active {
     color: $active-element-color;
     &::after {
       transform: scaleX(1);
-      transition: color $time-duration $time-transition,
-        transform $time-duration $time-transition;
+      @include transition(
+        color,
+        transform,
+        null,
+        $time-duration,
+        $time-transition
+      );
     }
   }
 }

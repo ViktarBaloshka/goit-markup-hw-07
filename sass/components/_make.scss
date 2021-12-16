@@ -7,10 +7,7 @@
   margin-bottom: 50px;
   text-align: center;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include font_style(700, 36px, 1.16, null, 0.03em);
 }
 
 .make__list {
@@ -30,19 +27,14 @@
   bottom: 0;
   left: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(flex, center, center, null, null);
 
   padding: 0;
   margin: 0;
   width: 100%;
   height: 70px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font_style(700, 14px, 1.14, null, 0.03em);
   text-transform: uppercase;
 
   color: $basic-color;

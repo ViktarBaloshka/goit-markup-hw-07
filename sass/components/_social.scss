@@ -23,6 +23,7 @@
   &:focus {
     background-color: $active-element-color;
     color: $basic-color;
+    outline: none;
   }
   &--footer {
     color: $basic-color;

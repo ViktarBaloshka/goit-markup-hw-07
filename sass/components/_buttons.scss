@@ -23,6 +23,7 @@
     background: $active-hero-button-color;
     box-shadow: 0px 4px 4px $shadow;
     border-radius: 4px;
+    outline: none;
   }
 }
 
@@ -54,6 +55,7 @@
   &:focus {
     background: $active-hero-button-color;
     @include border_style(null, 0px 4px 4px $shadow, 4px, null);
+    outline: none;
   }
 }
 

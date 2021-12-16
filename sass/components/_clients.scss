@@ -29,6 +29,7 @@
   &:focus {
     color: $active-element-color;
     @include border_style(null, null, null, 1px solid $active-element-color);
+    outline: none;
   }
 }
 

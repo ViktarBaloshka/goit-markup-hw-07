@@ -5,6 +5,12 @@
   @include font_style(700, 26px, 1.19, null, 0.03em);
 
   color: $first-fonts-color;
+
+  &:focus,
+  &:hover {
+    color: $active-element-color;
+    outline: none;
+  }
 }
 
 .logo--color-blue {

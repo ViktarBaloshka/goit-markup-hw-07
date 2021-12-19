@@ -5,14 +5,17 @@
 
   .header & {
     display: flex;
-    background-color: $basic-color;
-    border-bottom: 1px solid #ececec;
   }
 
   .footer & {
     display: flex;
     align-items: baseline;
   }
+}
+
+.header {
+  background-color: $basic-color;
+  border-bottom: 1px solid #ececec;
 }
 
 .section {

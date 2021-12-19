@@ -306,12 +306,15 @@ body {
 }
 .header .container {
   display: flex;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ececec;
 }
 .footer .container {
   display: flex;
   align-items: baseline;
+}
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
 
 .section {
@@ -373,6 +376,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.header-link__logo:focus, .header-link__logo:hover,
+.footer-link__logo:focus,
+.footer-link__logo:hover {
+  color: #2196f3;
+  outline: none;
+}
 
 .logo--color-blue {
   color: #2196f3;
@@ -420,6 +429,7 @@ body {
 }
 .navigation__header-link:hover, .navigation__header-link:focus {
   color: #2196f3;
+  outline: none;
 }
 .navigation__header-link:hover::after {
   transform: scaleX(1);
@@ -469,6 +479,7 @@ body {
 }
 .header-contacts__link:hover, .header-contacts__link:focus {
   color: #2196f3;
+  outline: none;
 }
 
 .footer-contacts__link {
@@ -481,6 +492,7 @@ body {
 }
 .footer-contacts__link:hover, .footer-contacts__link:focus {
   color: #2196f3;
+  outline: none;
 }
 
 .footer-contacts__item:not(:last-child) {
@@ -857,6 +869,7 @@ body {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 .clients--icon {
@@ -1042,10 +1055,10 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form__input:focus, .form__input:focus,
+.form__input:focus, .form__input:hover,
 .form__feedback:focus,
-.form__feedback:focus {
-  border: 1px solid e-element-color;
+.form__feedback:hover {
+  border: 1px solid #2196f3;
   outline: -webkit-focus-ring-color auto 0px;
 }
 
@@ -1093,6 +1106,7 @@ body {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #2196f3;
+  outline: none;
 }
 
 .filter__list {
@@ -1117,6 +1131,7 @@ body {
 }
 .example__link:hover, .example__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
 }
 .example__link:focus .example__thumb::before, .example__link:hover .example__action, .example__link:hover .example__thumb::before, .example__link:focus .example__action {
   transform: translateY(0%);

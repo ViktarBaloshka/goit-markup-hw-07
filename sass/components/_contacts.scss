@@ -12,6 +12,7 @@
   &:hover,
   &:focus {
     color: $active-element-color;
+    outline: none;
   }
 }
 
@@ -23,6 +24,7 @@
   &:hover,
   &:focus {
     color: $active-element-color;
+    outline: none;
   }
 }
 

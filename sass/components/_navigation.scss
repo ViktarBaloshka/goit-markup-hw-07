@@ -26,6 +26,7 @@
   &:hover,
   &:focus {
     color: $active-element-color;
+    outline: none;
   }
 
   &:hover::after {

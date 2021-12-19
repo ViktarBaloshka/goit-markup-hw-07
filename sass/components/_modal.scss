@@ -117,8 +117,8 @@
   @include transition(border, null, null, $time-duration, $time-transition);
 
   &:focus,
-  &:focus {
-    border: 1px solid e-element-color;
+  &:hover {
+    border: 1px solid $active-element-color;
     outline: -webkit-focus-ring-color auto 0px;
   }
 }
